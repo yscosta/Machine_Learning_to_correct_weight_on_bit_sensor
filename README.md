@@ -1,12 +1,10 @@
-# ML_to_correct_weight_on_bit
-
-<div class="alert" style="background-color:#fff; color:white; padding:0px 10px; border-radius:5px;"><h1 style='margin:15px 15px; color:#305496; font-size:40px'>Aprendizagem de máquina para ajustar os dados faltantes do sensor do peso sobre a broca</h1>
+<div class="alert" style="background-color:#fff; color:white; padding:0px 10px; border-radius:5px;"><h1 style='margin:15px 15px; color:#305496; font-size:40px'>Machine learning to fit missing data on weight on bit in oil well drilling</h1>
 </div>
 
-Na perfuração dos poços de petróleo são utilizados equipamentos compostos por uma sequência de tubos e uma broca em sua extremidade. Nesse conjunto é aplicado uma rotação e o peso sobre toda a estrutura, que é chamada de coluna de perfuração,  fragmenta a rocha no fundo dos poços. Esses conceitos são retratados na animação <a href="https://www.linkedin.com/posts/alison-silva-217212135_activity-6858874651595153408-szUA/?utm_source=linkedin_share&utm_medium=member_desktop_web" target="_blank" rel="noopener noreferrer">Sonda de Perfuração</a>, elaborada pela Pertroanimes com  maiores detalhes.
+In the drilling of oil wells, equipment consisting of a sequence of pipes and a drill at its end is used. This set, with the application of rotation and weight on the entire structure, called a drill string, fragments the rock at the bottom of the wells. These concepts are depicted in the <a href="https://www.linkedin.com/posts/alison-silva-217212135_activity-6858874651595153408-szUA/?utm_source=linkedin_share&utm_medium=member_desktop_web" target="_blank" rel="noopener noreferrer">Drilling Rig</a> animation made by Pertroanimes in greater detail.
 
-Sensores estão acoplados aos diversos equipamentos de perfuração para o monitoramento, porém, tais dispositivos estão suscetíveis a falhas, o que acarreta na falta de dados.
+Sensors are coupled to the various drilling equipment for monitoring, however, such devices are susceptible to failures, which leads to a lack of data.
 
-Um modelo de aprendizagem de máquina será utilizado para corrigir os dados faltantes gerados devido a deficiência do sensor do peso sobre a broca, também conhecido como Weight on BIt (WOB).
+A machine learning model will be used to correct the missing data generated due to the deficiency of the weight on the bit (WOB) sensor.
 
-Como condição para que o algoritmo submeta os dados ao modelo, que retornará a projeção do valor, é preciso que WOB esteja nulo e as demais variáveis não. Com isso, o resultado é exposto em gráficos com a substituição do peso sobre a broca junto com a rotação (RPM) e a profundidade do poço (DEPTH), a fim de analisar se o resultado é adequado.
+As a condition for the algorithm to submit the data into the model, that will return the value projection, it is necessary that WOB is null and the other variables are not. Therefore, the result is displayed in graphs with the replacement of the weight on the bit along with the rotation (RPM) and the depth of the well (DEPTH), in order to analyze if the result is suitable.
